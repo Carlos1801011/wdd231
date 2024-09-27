@@ -1,0 +1,261 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --primary-color: #F6F0E7;
+    --secondary-color: #196a95;
+    --accent-color1: #E8D9C2;
+}
+
+body {
+    font-family: "Gill Sans MT", Raleway, Quicksand, "Humanst521 BT", sans-serif;
+    background-color: var(--primary-color);
+    font-size: 15px;
+}
+
+main {
+    padding: 15px;
+}
+
+
+.intro-container {
+    width: 100%;
+    height: 100px;
+    background-color: var(--secondary-color);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: white;
+}
+
+
+
+#menu {
+    font-size: 26px;
+    line-height: 100px;
+    padding-right: 10px;
+    cursor: pointer;
+
+}
+
+
+
+.intro-container h1 {
+    line-height: 70px;
+    font-family: Raleway, sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.intro-container img {
+    border-radius: 50%;
+    padding: 5px;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    margin-top: 10px;
+}
+.close-menu {
+    font-size: 26px;
+    color: white;
+    position: relative;
+    top: 0;
+    left: -40%;
+}
+
+
+.nav-links {
+    display: none;
+    background-color: #5F4723;
+    width: 200px;
+    height: 300px;
+    text-align: center;
+    padding-top: 17px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    transition: 25s ease;
+}
+
+.nav-links a {
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.nav-links a:hover {
+    color: #c9b89f;
+}
+
+
+
+
+
+.tag-1-course {
+    height: 350px;
+    box-shadow: 2px 2px 5px #e1e1ea, -2px -2px 5px #e1e1ea;
+    border-radius: 8px;
+}
+
+.tag-1-course {
+    background-color: #196a95;
+    text-align: center;
+    padding: 15px;
+    color: white;
+    font-family: Raleway, sans-serif;
+    border-radius: 7px 7px 0 0;
+}
+
+.tag-1-course .course-taken {
+    font-size: .9rem;
+    padding: 5px;
+    padding-left: 15px;
+    margin-top: 10px;
+}
+
+.tag-1-course ul {
+    list-style-type: none;
+}
+
+.tag-image img {
+    padding: 15px 0 3px 0;
+    width: 140px;
+    height: auto;
+    margin-top: 16px;
+}
+
+
+.tag-image {
+    text-align: center;
+    height: 350px;
+    margin-top: 20px;
+    box-shadow: 2px 2px 5px #e1e1ea, -2px -2px 5px #e1e1ea;
+    border-radius: 9px;
+}
+
+.tag-image h2 {
+    background-color: #196a95;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-family: Raleway, sans-serif;
+    border-radius: 7px 7px 0 0;
+
+}
+
+
+
+.btn {
+    text-align: center;
+}
+
+
+.tag-3 {
+    box-shadow: 2px 2px 5px #e1e1ea, -2px -2px 5px #e1e1ea;
+    margin-top: 12px;
+
+}
+
+.tag-3 h2 {
+    padding: 12px;
+    color: white;
+    background-color: #196a95;
+    text-align: center;
+    font-family: Raleway, sans-serif;
+    border-radius: 7px 7px 0 0;
+
+}
+.btn button:hover {
+    background-color: rgb(42, 39, 39);
+}
+
+.btn button {
+    padding: 5px 12.2%;
+    gap: 3px;
+    margin: 10px 0;
+    border-radius: 3px;
+    background-color: black;
+    color: white;
+    border: none;
+    font-family: "Gill Sans MT", sans-serif;
+    cursor: pointer;
+
+}
+
+
+
+.courses-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.courses-container span {
+    padding: 10px;
+    margin: 5px 0;
+    color: white;
+    background-color: #196a95;
+    text-align: center;
+    border-radius: 3px;
+}
+
+
+courses.incomplete {
+    background-color: var(--secondary-color);
+}
+
+.total-credit {
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.flag-name img {
+    width: 30px;
+
+    height: auto;
+} 
+
+.footer-nav {
+    height: 110px;
+    margin-top: 20px;
+    background-color: #196a95;
+    color: white;
+    padding: 13px;
+    font-family: Raleway, sans-serif;
+    text-align: center;
+}
+
+#currentYear {
+    display: block;
+    padding: 5px;
+}
+
+.flag-name {
+    display: inline-flex;
+    flex-direction: row;
+    gap: 5px;
+    text-align: center;
+    padding: 3px;
+}
+
+#currentYear, .flag-name {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+
+
+
+#lastModified {
+    padding-top: 14px;
+    font-weight: 600;
+}
