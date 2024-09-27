@@ -14,8 +14,8 @@
 
 body {
     font-family: "Gill Sans MT", Raleway, Quicksand, "Humanst521 BT", sans-serif;
-    background-color: var(--primary-color);
     font-size: 15px;
+    background-color: var(--primary-color);
 }
 
 main {
@@ -56,15 +56,15 @@ main {
     border-radius: 50%;
     padding: 5px;
     width: 80px;
-    height: 80px;
     object-fit: cover;
+    height: 80px;
     margin-top: 10px;
 }
 .close-menu {
     font-size: 26px;
+    top: 0;
     color: white;
     position: relative;
-    top: 0;
     left: -40%;
 }
 
@@ -75,8 +75,9 @@ main {
     width: 200px;
     height: 300px;
     text-align: center;
-    padding-top: 17px;
     position: absolute;
+    padding-top: 17px;
+
     top: 0;
     right: 0;
     z-index: 1;
@@ -109,9 +110,9 @@ main {
 .tag-1-course {
     background-color: #196a95;
     text-align: center;
+    font-family: Raleway, sans-serif;
     padding: 15px;
     color: white;
-    font-family: Raleway, sans-serif;
     border-radius: 7px 7px 0 0;
 }
 
@@ -145,11 +146,10 @@ main {
 .tag-image h2 {
     background-color: #196a95;
     color: white;
+    border-radius: 7px 7px 0 0;
     text-align: center;
     padding: 15px;
     font-family: Raleway, sans-serif;
-    border-radius: 7px 7px 0 0;
-
 }
 
 
@@ -172,7 +172,6 @@ main {
     text-align: center;
     font-family: Raleway, sans-serif;
     border-radius: 7px 7px 0 0;
-
 }
 .btn button:hover {
     background-color: rgb(42, 39, 39);
@@ -211,7 +210,7 @@ main {
 courses.incomplete {
     background-color: var(--secondary-color);
 }
-
+/*credits in the course*/
 .total-credit {
     display: block;
     text-align: center;
@@ -233,7 +232,7 @@ courses.incomplete {
     font-family: Raleway, sans-serif;
     text-align: center;
 }
-
+/*DATE AND FLAGE TAG IN THE DATE*/
 #currentYear {
     display: block;
     padding: 5px;
@@ -253,7 +252,7 @@ courses.incomplete {
 }
 
 
-
+/*Last M In the footer of the page*/
 
 #lastModified {
     padding-top: 14px;
