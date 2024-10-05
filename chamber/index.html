@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sv of Commerce Home</title>
+    <meta name="author" content="Carlos Alvanez">
+    <meta name="description" content="Chamber of Commerce Home page for WDD 231.">
+    <meta property="og:image" content="https://elsalvador.travel/system/wp-content/uploads/2024/06/centro01.jpg">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Chamber of Commerce">
+    <meta property="og:description" content="Chamber of Commerce home page for the WDD 231.">
+    <meta property="og:url" content="https://carlos1801011.github.io/wdd231/chamber/index">
+    <script src="./scripts/index.js" defer></script>
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="icon" href="./images/shop_118074.png">
+</head>
+<body>
+    <div class="header">
+        <header>
+            <img src="./images/sv-logo-design_705304-118.avif" alt="logo">
+            <div>
+                <h1>San Salvador, El Salvador</h1>
+                <p>Chamber of Commerce</p>
+            </div>
+        </header>
+        <nav id="navElement">
+            <button id="navButton" type="button" aria-label="hamburger menu"></button>
+            <ul class="menuLinks">
+                <li class="currentMenuItem"><a href="#" title="Home">Home</a></li>
+                <li><a href="./directory.html" title="Directory">Directory</a></li>
+                <li><a href="./join.html" title="Join">Join</a></li>
+                <li><a href="./discover.html" title="Discover">Discover</a></li>
+            </ul>
+        </nav>
+    </div>
+    
+    <main>
+        <section class="heroImage">
+            <h2>Hero</h2>
+            <div class="heroContent">
+                <h3>Join the SV, Chamber of Commerce!</h3>
+                <button type="button" title="keynote" id="joinButton">Join</button>
+            </div>           
+        </section>
+        
+        <section class="cityInfo">
+            <h2>City Information</h2>
+            <div class="infoBoxes">
+                <div id="events">
+                    <h3>Events</h3>
+                    <p>Event #1</p>
+                </div>
+                <div id="currentWeather">
+                    <h3>Current Weather</h3>
+                    <img src="images/overcastday_weather_sun_cloudy_4493.ico" alt="placeholder">
+                    El Salvador, San salvador
+                    <p>27°C°F</p>
+                    <p>Prob. of precipitation: 90%</p>
+                    <p>Humidity: 76%</p>
+                    <p>Wind: 13 km/h</p>
+
+
+                </div>
+                <div id="weatherForecast">
+                    <h3>Weather Forecast</h3>
+                    <p>Cloudy throughout the week </p>
+                    <p>Very humid</p>
+                    <p>With chances of continuous rain</p>
+                </div>
+            </div>
+        </section>
+        <section class="memberSpotlight">
+            <h2>Local Businesses</h2>
+            <div class="businessCards">
+                <!-- Populated by JavaScript -->
+            </div>
+        </section>
+    </main>
+    <footer id="footer"></footer>
+</body>
+</html>

@@ -1,0 +1,168 @@
+@import url("./common.css");
+
+main {
+    height: 100%;
+    /* margin-left: 15vh;
+    margin-right: 15vh; */
+}
+
+
+
+.heroContent {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.heroContent h3 {
+    color: var(--secondary-color);
+    font-size: xx-large;
+}
+
+section h2 {
+    display: none;
+}
+
+.infoBoxes {
+    display: grid;
+    grid-template-columns: 2fr 1.25fr 1fr;
+}
+
+.infoBoxes > div {
+    background-color: var(--accent1-color);
+    margin: 10px;
+}
+
+.infoBoxes > div > h3 {
+    background-color: var(--accent2-color);
+    /* color: var(--accent1-color); */
+    margin: 0;
+    padding-top: 5px;
+}
+
+.infoBoxes > div > h3,p,a {
+    padding-left: 10px;
+}
+
+#events {
+    grid-column: 1/2;
+}
+
+#currentWeather {
+    grid-column: 2/3;
+}
+
+#weatherForecast {
+    grid-column: 3/4;
+}
+
+#currentWeatherDetails {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+#currentWeatherText p {
+    padding: 2px;
+    margin: 0;
+}
+
+#currentWeatherTemp {
+    padding-top: 1rem !important;
+}
+
+#currentWeatherIcon {
+    grid-column: 1/2;
+    padding: 1vw;
+}
+
+#currentWeatherDescription {
+    text-transform: capitalize;
+}
+
+.businessCards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+
+.businessCards figure img {
+    /* height: 50px; */
+    max-width: 75px;
+    grid-column: 1/2 !important;
+    padding-top: 5px;
+}
+
+.heroImage {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/1024px-Panoramica_del_Centro_Histórico_de_San_Salvador.jpg");
+    height: 40vh;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.businessCards figure figcaption > p,a {
+    font-size: small;
+    color: var(--secondary-color);
+}
+
+
+
+.businessCard {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+    justify-items: center;
+    margin: 5px;
+    background-color: var(--primary-color);
+    border-radius: 5%;
+}
+
+.businessCard h3 {
+    grid-column: 1/3;
+    padding: 0;
+    margin: 0;
+    color: var(--secondary-color);
+    text-align: center;
+    padding-top: 5px !important;
+    border-bottom: 1px solid var(--secondary-color);
+}
+
+.businessCard figure figcaption {
+    grid-column: 2/3;
+    padding-bottom: 5px;
+}
+
+#joinButton {
+    width: 25%;
+    font-size: larger;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border: none;
+    border-radius: 1rem;
+}
+
+.businessCards figure {
+    grid-column: 1/3;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    padding: 0;
+    margin: 0;
+    justify-self: left;
+    padding-left: 1vw;
+}
+
+@media only screen and (max-width: 37.999rem) {
+
+    #events, #currentWeather, #weatherForecast {
+        grid-column: 1/4;
+    }
+
+
+    .businessCards {
+        grid-template-columns: 1fr !important;
+
+    }
+}

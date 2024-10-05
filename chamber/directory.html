@@ -1,25 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!--meta description-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link rel="stylesheet" href="styles/normalize.css"> -->
-    <title>Naples UT Chamber of Commerce Directory</title>
+    <title>El Salvador Commerce</title>
     <meta name="author" content="Carlos Alvanez">
     <meta name="description" content="Chamber of Commerce directory page for WDD 231.">
-    <meta property="og:image" content=".jpg">
+    <meta property="og:image" content="https://elsalvador.travel/system/wp-content/uploads/2024/06/centro01.jpg">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Chamber of Commerce">
-    <meta property="og:description" content="Chamber of Commerce directory page for the WDD 231.">
+    <meta property="og:title" content="Chamber of Commerce SV">
+    <meta property="og:description" content="Chamber of Commerce directory page for the WDD 231 SV.">
 
     <script src="./scripts/directory.js" defer></script>
     <link rel="stylesheet" href="./styles/directory.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="icon" href="./images/favicon.ico">
+    <link rel="icon" href="./images/shop_118074.png">
 </head>
 <body>
     <header>
-        <img src="" alt="Chamber of Commerce logo">
+        <img src="./images/sv-logo-design_705304-118.avif" alt="Chamber of Commerce logo">
         <div>
             <h1>San Salvador, El Salvador</h1>
             <p>Chamber of Commerce</p>
@@ -34,14 +34,14 @@
             <li><a href="./discover.html" title="Discover">Discover</a></li>
         </ul>
     </nav>
-    
-    <main class="directoryMain">
-        <div class="layoutButtons">
-            <button aria-label="one column layout" id="oneColButton" type="button" value="oneColGrid">Single Column</button>
-            <button aria-label="three column layout" id="threeColButton" class="selected" type="button" value="threeColGrid">Triple Column</button>
+    <!--The cards about sites and information-->
+    <main class="directoryMain1">
+        <div class="layoutButtonsspe">
+            <button aria-label="one column layout" id="oneCol" type="button" value="oneCol">Single Column</button>
+            <button aria-label="three column layout" id="threeCol" class="selected" type="button" value="threeColGrid">Triple Column</button>
         </div>
         
-        <div id="membersList" class="threeColGrid"></div>
+        <div id="membersListActual" class="threeColGrid"></div>
     </main>
     <footer id="footer"></footer>
 </body>

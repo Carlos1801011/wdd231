@@ -1,0 +1,56 @@
+[
+    {
+        "name": "Holiday Inn Suites",
+        "address1": "Urb. y Blvd. Santa Elena y Calle Pital Oriente, y Calle Pital Oriente",
+        "address2": "Santa Elena , SV",
+        "phone": "2413-4875",
+        "website": "https://www.online-reservations.com/?hotelid=333426&msclkid=f7fe30b215bf17b17b9a564fd05e382a",
+        "imageUrl": "https://th.bing.com/th/id/OIP.nEMLYkEcQ-gSHDDmib1urAHaHa?rs=1&pid=ImgDetMain",
+        "membershipLevel": "Gold"
+    },
+    {
+        "name": "Beethoven Academy of Music",
+        "address1": "1st Street East and Spain Avenue",
+        "address2": "Plaza España Shopping Center, 2nd floor local N 22, Center",
+        "phone": "2222 9120",
+        "website": "https://www.facebook.com/clasesdemusicabeethoven/",
+        "imageUrl": "https://uploads.turbologo.com/uploads/design/preview_image/1074900/preview_image20210805-28561-ewulli.png",
+        "membershipLevel": "Silver"
+    },
+    {
+        "name": "Box of Credit",
+        "address1": "Macario Rosales Building, Macario Armando Rosales Building Rosa",
+        "address2": "25 North Avenue and, 23 West Street 25, San Salvador",
+        "phone": "2221 3333",
+        "website": "https://www.fedecredito.com.sv/",
+        "imageUrl": "https://www.cajasantiagononualco.com.sv/wp-content/uploads/2022/12/ICON-300PX-REDES-CIRCULAR-2920.png",
+        "membershipLevel": "Gold"
+    },
+    {
+        "name": "Cheap pharmacy",
+        "address1": "Plaza Centro Shopping Center",
+        "address2": "9 South Avenue Local 211, San Salvador 1101",
+        "phone": "2530 2530",
+        "website": "https://www.farmaciaseconomicaselsalvador.com/PROD/ECOMMERCE/",
+        "imageUrl": "https://www.farmaciaseconomicaselsalvador.com/PROD/SERV_ADMIN_FILES/Archivos/Imagenes/Parametro/Suc_152/LOGO%20FE_1.png",
+        "membershipLevel": "Silver"
+    },
+    {
+        "name": "Convenience store and gas station one",
+        "address1": "Los Heroes Boulevard and Los Sisimiles Street Sykes",
+        "address2": "Between Los Sisimiles Avenue and, Pje. Las Palmas",
+        "phone": "2261 0972",
+        "website": "https://www.uno-ca.com/sv/estacion-de-servicio/",
+        "imageUrl": "https://www.uno-ca.com/media/14xjivh4/uno-gasolineras-logo.png",
+        "membershipLevel": "Gold"
+    },
+    {
+        "name": "Max bloch Sv",
+        "address1": "25 Avenida Nte. 640",
+        "address2": "San Salvador",
+        "phone": "2415-8953",
+        "website": "https://maxbloch.com/sucursal-clinicas-medicas/",
+        "imageUrl": "https://maxbloch.com/wp-content/uploads/2021/09/logomax-2021.png",
+        "membershipLevel": "Silver"
+    }
+]

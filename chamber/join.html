@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join SV Chamber of Commerce</title>
+    <meta name="author" content="Carlos Alvanez">
+    <meta name="description" content="Chamber of Commerce join page for WDD 231.">
+    <meta property="og:image" content="https://i0.wp.com/thehappening.com/wp-content/uploads/2019/10/el-salvador-1.jpg?fit=1024%2C694&ssl=1">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Chamber of Commerce">
+    <meta property="og:description" content="Chamber of Commerce join page for the WDD 231.">
+    <script src="./scripts/join.js" defer></script>
+    <link rel="stylesheet" href="./styles/join.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="icon" href="./images/shop_118074.png">
+</head>
+<body>
+    <header>
+        <img src="./images/sv-logo-design_705304-118.avif" alt="logo">
+        <div>
+            <h1>San Salvador, El Salvador</h1>
+            <p>Chamber of Commerce</p>
+        </div>
+    </header>
+    <nav id="navElement">
+        <button id="navButton" type="button" aria-label="hamburger menu"></button>
+        <ul class="menuLinks">
+            <li><a href="./index.html" title="Home">Home</a></li>
+            <li><a href="./directory.html" title="Directory">Directory</a></li>
+            <li class="currentMenuItem"><a href="#" title="Join">Join</a></li>
+            <li><a href="./discover.html" title="Discover">Discover</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Join the SV, Salvador Chamber of Commerce!</h2>
+        <form method="GET" action="thankyou.html">
+            <label for="firstName"><input id="firstName" type="text" name="firstName" required autocomplete="given-name" title="First Name" placeholder="First Name"></label>
+            <label for="lastName"><input id="lastName" type="text" name="lastName" required autocomplete="family-name" title="Last Name" placeholder="Last Name"></label>
+            <label for="orgTitle"><input pattern="([a-z]|[A-Z]|[\s]|[\-]){7,}" id="orgTitle" type="text" name="orgTitle" required autocomplete="organization-title" title="Organization Title" placeholder="Organization Title"></label>
+            <label for="email"><input id="email" type="email" name="email" required autocomplete="email" title="Email" placeholder="carcar.doe@email.com"></label>
+            <label for="phone"><input id="phone" type="tel" name="phone" required autocomplete="tel" title="Phone" placeholder="Phone Number"></label>
+            <label for="orgName"><input id="orgName" type="text" name="orgName" required autocomplete="organization" title="Organization Name" placeholder="Business/Organization Name"></label>
+            <label for="orgDescription"><textarea rows="10" cols="30" id="orgDescription" name="orgDescription" title="Organization Description" placeholder="Description of Organization..."></textarea></label>
+            
+            <div class="membershipLevelInput">
+                <dialog id="membershipLevelModal">
+                    <div id="dialogDiv">
+                        <table>
+                            <tr>
+                                <th>Membership Level</th>
+                                <th>Description</th>
+                                <th>Monthly Fee</th>
+                            </tr>
+                            <tr>
+                                <td>Bronze</td>
+                                <td>Bronze Membership</td>
+                                <td>$35</td>
+                            </tr>
+                            <tr>
+                                <td>Silver</td>
+                                <td>Silver Membership</td>
+                                <td>$75</td>
+                            </tr>
+                            <tr>
+                                <td>Gold</td>
+                                <td>Gold Membership</td>
+                                <td>$125</td>
+                            </tr>
+                            <tr>
+                                <td>Non-Profit</td>
+                                <td>Non-Profit Membership</td>
+                                <td>$0</td>
+                            </tr>
+                        </table>
+                    </div>
+                </dialog>
+                <p>Select your Membership Level:</p>
+                <p>If you need more Information (<span id="levelHelp">Prices</span>): </p>
+                
+                <label class="membershipBadges" for="levelBronze"><input type="radio" id="levelBronze" name="membershipLevel" value="Bronze">Bronze</label>
+                <label class="membershipBadges" for="levelSilver"><input type="radio" id="levelSilver" name="membershipLevel" value="Silver">Silver</label>
+                <label class="membershipBadges" for="levelGold"><input type="radio" id="levelGold" name="membershipLevel" value="Gold">Gold</label>
+                <label class="membershipBadges" for="levelNonProfit"><input type="radio" id="levelNonProfit" name="membershipLevel" value="Non-Profit">Non-Profit </label>
+            </div>
+            <input name="timestamp" type="hidden" id="timestamp" title="timestamp" value="2018-06-07T00:00" hidden>            <input type="submit" value="Apply">
+        </form>
+    </main>
+    <footer id="footer"></footer>
+</body>
+</html>

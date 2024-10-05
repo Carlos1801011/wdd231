@@ -1,0 +1,64 @@
+
+/*Import to the more specifical options in comon css*/
+@import url("./common.css");
+/*foter grid */
+.threeColGrid {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.oneColGrid {
+    grid-template-columns: 1fr;
+}
+
+
+
+.layoutButtonsspe {
+    margin: 10px;
+}
+
+.layoutButtonsspe button.selected {
+    cursor: pointer;
+    outline: none;
+    background: #e5e5e5;
+  -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+     -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+          box-shadow: inset 0px 0px 5px #c1c1c1;
+
+
+}
+/*List in the footer of the locals*/
+#membersListActual {
+    display: grid;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+}
+#membersListActual .memberCard {
+    background-color: var(--accent1-color);
+    height: 340px;
+    border: 1px solid black;
+    margin: 5px;
+    border-radius: 10px;
+
+}
+#membersListActual div figure img {
+    max-width: 100px;
+}
+
+
+main {
+    text-align: center !important;
+    display: flex;
+    flex-direction: column;
+}
+/*Max screen*/
+@media only screen and (max-width: 37.999rem) {
+    .layoutButtonsspe {
+        display: none;
+    }
+
+    .threeColGrid, .oneColGrid {
+        grid-template-columns: 1fr;
+    }
+}
