@@ -3,7 +3,7 @@
         {
             "name": "Nachos",
             "description": "Crispy tortilla chips topped with cheese and jalapeños.",
-            "image_url": "https://example.com/nachos.jpg",
+            "image_url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Flaragrill.es%2Fmenu%2Fnachos-texmex%2F&psig=AOvVaw2vLueFlXCf2FMm1rEo4l6R&ust=1730239566127000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCNjmlemKsokDFQAAAAAdAAAAABAE",
             "items": [
                 {"name": "Cheese Nachos", "price": "$8"},
                 {"name": "Loaded Nachos", "price": "$10"}
