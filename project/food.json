@@ -12,7 +12,7 @@
         {
             "name": "Wings",
             "description": "Spicy chicken wings served with a side of ranch.",
-            "image_url": "https://example.com/wings.jpg",
+            "image_url": "https://media.istockphoto.com/id/532607409/photo/chicken-wings.jpg?s=612x612&w=0&k=20&c=JKyzVvVvPIkGoAaN-dBHyrsyAVtB9Q1Mimv2SPv88Yk=",
             "items": [
                 {"name": "Buffalo Wings", "price": "$12"},
                 {"name": "BBQ Wings", "price": "$12"}
