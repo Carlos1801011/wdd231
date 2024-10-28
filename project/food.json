@@ -1,0 +1,76 @@
+{
+    "categories": [
+        {
+            "name": "Nachos",
+            "description": "Crispy tortilla chips topped with cheese and jalapeños.",
+            "image_url": "https://example.com/nachos.jpg",
+            "items": [
+                {"name": "Cheese Nachos", "price": "8"},
+                {"name": "Loaded Nachos", "price": "10"}
+            ]
+        },
+        {
+            "name": "Wings",
+            "description": "Spicy chicken wings served with a side of ranch.",
+            "image_url": "https://example.com/wings.jpg",
+            "items": [
+                {"name": "Buffalo Wings", "price": "12"},
+                {"name": "BBQ Wings", "price": "12"}
+            ]
+        },
+        {
+            "name": "Sliders",
+            "description": "Mini burgers perfect for sharing.",
+            "image_url": "https://example.com/sliders.jpg",
+            "items": [
+                {"name": "Beef Sliders", "price": "10"},
+                {"name": "Chicken Sliders", "price": "10"}
+            ]
+        },
+        {
+            "name": "Quesadillas",
+            "description": "Grilled tortillas filled with cheese and your choice of meat.",
+            "image_url": "https://example.com/quesadilla.jpg",
+            "items": [
+                {"name": "Chicken Quesadilla", "price": "9"},
+                {"name": "Veggie Quesadilla", "price": "8"}
+            ]
+        },
+        {
+            "name": "Mozzarella Sticks",
+            "description": "Breaded mozzarella cheese served with marinara sauce.",
+            "image_url": "https://example.com/mozzarella_sticks.jpg",
+            "items": [
+                {"name": "Classic Mozzarella Sticks", "price": "7"},
+                {"name": "Spicy Mozzarella Sticks", "price": "8"}
+            ]
+        },
+        {
+            "name": "Popcorn",
+            "description": "Buttery popcorn for a light snack.",
+            "image_url": "https://example.com/popcorn.jpg",
+            "items": [
+                {"name": "Butter Popcorn", "price": "5"},
+                {"name": "Caramel Popcorn", "price": "6"}
+            ]
+        },
+        {
+            "name": "Chips & Salsa",
+            "description": "Crispy tortilla chips served with fresh salsa.",
+            "image_url": "https://example.com/chips_salsa.jpg",
+            "items": [
+                {"name": "Chips & Salsa", "price": "5"},
+                {"name": "Chips & Guacamole", "price": "8"}
+            ]
+        },
+        {
+            "name": "Fries",
+            "description": "Golden fried potatoes, perfect as a side.",
+            "image_url": "https://example.com/fries.jpg",
+            "items": [
+                {"name": "Classic Fries", "price": "4"},
+                {"name": "Loaded Fries", "price": "7"}
+            ]
+        }
+    ]
+}
