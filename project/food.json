@@ -21,7 +21,7 @@
         {
             "name": "Sliders",
             "description": "Mini burgers perfect for sharing.",
-            "image_url": "https://example.com/sliders.jpg",
+            "image_url": "https://hips.hearstapps.com/hmg-prod/images/cheeseburger-sliders-recipe-1617737522.jpg?crop=1xw:0.8434864104967198xh;center,top&resize=1200:*",
             "items": [
                 {"name": "Beef Sliders", "price": "$10"},
                 {"name": "Chicken Sliders", "price": "$10"}
@@ -30,7 +30,7 @@
         {
             "name": "Quesadillas",
             "description": "Grilled tortillas filled with cheese and your choice of meat.",
-            "image_url": "https://example.com/quesadilla.jpg",
+            "image_url": "https://hips.hearstapps.com/hmg-prod/images/cheeseburger-sliders-recipe-1617737522.jpg?crop=1xw:0.8434864104967198xh;center,top&resize=1200:*",
             "items": [
                 {"name": "Chicken Quesadilla", "price": "$9"},
                 {"name": "Veggie Quesadilla", "price": "$8"}
@@ -39,7 +39,7 @@
         {
             "name": "Mozzarella Sticks",
             "description": "Breaded mozzarella cheese served with marinara sauce.",
-            "image_url": "https://example.com/mozzarella_sticks.jpg",
+            "image_url": "https://www.allrecipes.com/thmb/BeV2hKihyqT4sQBI6h2fYp2KzuU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/23596-fried-mozzarella-cheese-sticks-DDMFS-4x3-842a0eaebf6b435a8d3a8b04325e13eb.jpg",
             "items": [
                 {"name": "Classic Mozzarella Sticks", "price": "$7"},
                 {"name": "Spicy Mozzarella Sticks", "price": "$8"}
@@ -48,7 +48,7 @@
         {
             "name": "Popcorn",
             "description": "Buttery popcorn for a light snack.",
-            "image_url": "https://example.com/popcorn.jpg",
+            "image_url": "https://www.simplyrecipes.com/thmb/Xzggu-Md45HKhhYSw4DK8tGlZ_I=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Perfect-Popcorn-LEAD-41-4a75a18443ae45aa96053f30a3ed0a6b.JPG",
             "items": [
                 {"name": "Butter Popcorn", "price": "$5"},
                 {"name": "Caramel Popcorn", "price": "$6"}
@@ -57,7 +57,7 @@
         {
             "name": "Chips & Salsa",
             "description": "Crispy tortilla chips served with fresh salsa.",
-            "image_url": "https://example.com/chips_salsa.jpg",
+            "image_url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2013/12/9/0/FNK_Salsa-and-Chips_s4x3.jpg.rend.hgtvcom.1280.1280.suffix/1387411410179.webp",
             "items": [
                 {"name": "Chips & Salsa", "price": "$5"},
                 {"name": "Chips & Guacamole", "price": "$8"}
@@ -66,7 +66,7 @@
         {
             "name": "Fries",
             "description": "Golden fried potatoes, perfect as a side.",
-            "image_url": "https://example.com/fries.jpg",
+            "image_url": "https://sausagemaker.com/wp-content/uploads/Homemade-French-Fries_8.jpg",
             "items": [
                 {"name": "Classic Fries", "price": "$4"},
                 {"name": "Loaded Fries", "price": "$7"}
