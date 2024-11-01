@@ -101,16 +101,14 @@
         margin: 0 5px;
     }
     
-    .slideshow-container {
-        width: 200px;
+
+    
+    nav.open {
+        max-height: 500px; 
+        opacity: 1; 
     }
     
-    .slideshow img {
-        width: 200px;
-        height: auto;
-    }
-    
-    /*menu page*/
+   
     
     #menu, .name-button {
         display: flex;
