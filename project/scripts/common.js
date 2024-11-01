@@ -9,9 +9,9 @@ footer.innerHTML =
     <p id="contactPhone">7698-9888</p>
 </div>
 <div id="socialMedia" class="footerCell">
-    <a href="https://youtube.com"><img src="./images/youtube.png" alt="YouTube logo by WEB" ></a>
-    <a href="https://facebook.com"><img src="./images/facebook.png" alt="Facebook logo by WEB"></a>
-    <a href="https://linkedin.com"><img src="./images/linkedin.png" alt="LinkedIn logo by WEB"></a>
+    <a href="https://youtube.com"><img src="./images/youtube.webp" alt="YouTube logo by WEB" ></a>
+    <a href="https://facebook.com"><img src="./images/facebook.webp" alt="Facebook logo by WEB"></a>
+    <a href="https://linkedin.com"><img src="./images/linkedin.webp" alt="LinkedIn logo by WEB"></a>
 </div>
 <div id="devDetails" class="footerCell">
     <p>WDD231 Class Project</p>
