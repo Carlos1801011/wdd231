@@ -148,5 +148,38 @@
     }
     
     
-    
+
+    .product-grid {
+        display: flex; 
+        justify-content: center; 
+        align-items: center; 
+        flex-wrap: wrap; 
+        gap: 20px; 
+        margin: 20px 0;
     }
+    
+    .product-item {
+        text-align: center; 
+        flex: 1 1 200px; 
+        max-width: 200px; 
+    }
+    
+    .product-item img {
+        width: 100%; 
+        height: auto; 
+        border-radius: 10px; 
+        transition: transform 0.3s ease; 
+    }
+    
+    .product-item:hover img {
+        transform: scale(1.05); 
+    }
+    
+  
+    @media (max-width: 600px) {
+        .product-item {
+            flex: 1 1 100%; 
+            max-width: none; 
+        }
+}
+}
