@@ -172,12 +172,28 @@
     .product-item:hover img {
         transform: scale(1.05); 
     }
-    
-  
-    @media (max-width: 600px) {
-        .product-item {
-            flex: 1 1 100%; 
-            max-width: none; 
-        }
+
+
+@media (max-width: 768px) {
+    nav {
+        display: none; 
+        max-height: 0; 
+        overflow: hidden;
+        transition: max-height 0.5s ease-out; 
+    }
+
+    nav.open {
+        display: block; 
+        max-height: 500px;
+    }
+
+    #navButton {
+        display: block; 
+        background-color: #384C7A; 
+        color: white; 
+        border: none; 
+        font-size: 36px; 
+        cursor: pointer; 
+    }
 }
 }
