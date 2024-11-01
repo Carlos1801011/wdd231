@@ -9,7 +9,27 @@
     --heading-font: "LXGW WenKai Mono TC",halvetica;
 
 }
+.wireframe{
+    text-align: center;
+}
+.wireframe p{
+    text-align: center;
+}
 
+#primary{
+    background-color: var(--primary-color);
+}
+#secondary{
+    background-color: var(--secondary-color);
+}
+
+#accent1{
+    background-color: #ffff;
+}
+#accent2{
+    background-color: black;
+    color: #ffff;
+}
 h1{
     text-align: center;
     font-family:var(--h1-font);
@@ -61,25 +81,4 @@ table, td, th{
     background-color: var(--primary-color);
     color: white;
     padding: 10px;
-}
-.wireframe{
-    text-align: center;
-}
-.wireframe p{
-    text-align: center;
-}
-
-#primary{
-    background-color: var(--primary-color);
-}
-#secondary{
-    background-color: var(--secondary-color);
-}
-
-#accent1{
-    background-color: #ffff;
-}
-#accent2{
-    background-color: black;
-    color: #ffff;
 }
